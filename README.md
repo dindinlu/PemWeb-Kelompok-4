@@ -1,8 +1,8 @@
 Anggota kelompok 4
-    - Lukmanul Hakim
-    - M.Muhajirin
-    - Ratna cempaka
-    - Dinda putri ayu
+    1. Lukmanul Hakim
+    2. M.Muhajirin
+    3. Ratna cempaka
+    4. Dinda putri ayu
 
 referensi web
 https://github.com/AtharvaKulkarniIT/Travelscapes
