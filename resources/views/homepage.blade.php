@@ -133,7 +133,7 @@
                             class="bx bxs-shield-x value-accordion-icon"
                         ></i>
                         <h3 class="value__accordion-title">
-                            Lokasi ziarah terbaikdiberbagai dunia
+                            Lokasi ziarah terbaik di berbagai dunia
                         </h3>
                         <div class="value__accordion-arrow">
                             <i class="bx bxs-down-arrow"></i>

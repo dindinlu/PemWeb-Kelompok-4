@@ -340,12 +340,21 @@ body.dark-theme {
   place-items: center;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Playwrite+US+Modern:wght@100..400&display=swap');
+
 .islands__subtitle,
 .islands__title {
+  font-family: "Mate SC", serif;
+  font-weight: bold;
+  font-style:normal;
   color: #f5fffe;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Mate+SC&family=Playwrite+US+Modern:wght@100..400&display=swap');
+
 .islands__subtitle {
+  font-family: "Mate SC", serif;
+  font-style: normal;
   font-size: 2rem;
   font-weight: var(--font-medium);
 }
