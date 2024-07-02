@@ -25,9 +25,9 @@
                                 WISATA RELIGI
                             </h1>
                             <p class="islands__description">
-                                Embark on a sacred journey and<br />
-                                experience the divine beauty of<br />
-                                the world's most revered places.
+                                "Waktu untuk-Nya"<br />
+                                "Di tengah kesibukan, luangkan waktu untuk-Nya yang telah memberikan segalanya."<br />
+                                "Dalam doa, kita menemukan ketenangan dan kekuatan untuk menjalani setiap hari."
                             </p>
                         </div>
 
@@ -54,7 +54,7 @@
             <img src="{{ asset('frontend/assets/img/sp3.png') }}" alt="" />
         </div>
         <div class="logos__img">
-            <img src="{{ asset('frontend/assets/img/sp4.png') }}" alt="" />
+            <img src="{{ asset('frontend/assets/img/download.jpeg') }}" alt="" />
         </div>
     </div>
 </section>
@@ -133,14 +133,24 @@
                             class="bx bxs-shield-x value-accordion-icon"
                         ></i>
                         <h3 class="value__accordion-title">
-                            Lokasi ziarah terbaik di berbagai dunia
+                            Lokasi ziarah terbaikdiberbagai dunia 
                         </h3>
                         <div class="value__accordion-arrow">
                             <i class="bx bxs-down-arrow"></i>
                         </div>
                     </header>
-
                     <div class="value__accordion-content">
+    <ul class="value__accordion-info-list">
+        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Makkah">Mekah, Arab Saudi</a</li>
+        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Tanah_Lot">Pura Tanah Lot, Bali</a</li>
+        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Museum_Vatikan">Museum Vatican, Roma</a</li>
+        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Notre-Dame_de_Paris">Gereja Katedral Notre Dame, Paris</a</li>
+        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Maha_Vihara_Mojopahit">Maha Vihara Mojopahit, Mojokerto</a</li>
+        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Masjid_Baiturrahman_Banda_Aceh">Masjid Raya Baiturrahman,Banda aceh</a</li>
+        <!-- Tambahkan tempat-tempat ziarah lainnya sesuai kebutuhan -->
+    </ul>
+</div>
+                        <div class="value__accordion-content">
                         <p class="value__accordion-description">
                             We provides the best places around the
                             world and have a good quality of
