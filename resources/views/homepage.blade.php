@@ -141,7 +141,7 @@
                     </header>
                     <div class="value__accordion-content">
     <ul class="value__accordion-info-list">
-        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Makkah">Mekah, Arab Saudi</a</li>
+        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Makkah" target="_blank">Mekah, Arab Saudi</a</li>
         <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Tanah_Lot">Pura Tanah Lot, Bali</a</li>
         <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Museum_Vatikan">Museum Vatican, Roma</a</li>
         <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Notre-Dame_de_Paris">Gereja Katedral Notre Dame, Paris</a</li>
