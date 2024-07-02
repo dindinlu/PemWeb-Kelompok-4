@@ -142,11 +142,11 @@
                     <div class="value__accordion-content">
     <ul class="value__accordion-info-list">
         <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Makkah" target="_blank">Mekah, Arab Saudi</a</li>
-        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Tanah_Lot">Pura Tanah Lot, Bali</a</li>
-        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Museum_Vatikan">Museum Vatican, Roma</a</li>
-        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Notre-Dame_de_Paris">Gereja Katedral Notre Dame, Paris</a</li>
-        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Maha_Vihara_Mojopahit">Maha Vihara Mojopahit, Mojokerto</a</li>
-        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Masjid_Baiturrahman_Banda_Aceh">Masjid Raya Baiturrahman,Banda aceh</a</li>
+        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Tanah_Lot"target="_blank">Pura Tanah Lot, Bali</a</li>
+        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Museum_Vatikan"target="_blank">Museum Vatican, Roma</a</li>
+        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Notre-Dame_de_Paris"target="_blank">Gereja Katedral Notre Dame, Paris</a</li>
+        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Maha_Vihara_Mojopahit"target="_blank">Maha Vihara Mojopahit, Mojokerto</a</li>
+        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Masjid_Baiturrahman_Banda_Aceh"target="_blank">Masjid Raya Baiturrahman,Banda aceh</a</li>
         
     </ul>
 </div>
