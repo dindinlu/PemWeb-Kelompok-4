@@ -44,7 +44,7 @@
 
             <!-- Added Hover Boxes -->
             <div class="popular__card hover-box">
-                <div class="box">
+                <div class="box1">
                     <h2>Package Wisata 1 Kota</h2>
                     <p>
                         Perjalanan intens di satu kota pilihan.
@@ -53,7 +53,7 @@
             </div>
 
             <div class="popular__card hover-box">
-                <div class="box">
+                <div class="box2">
                     <h2>Package Wisata Lebih dari 1 Kota</h2>
                     <p>
                         Kunjungi beberapa kota sekaligus dalam waktu singkat!
