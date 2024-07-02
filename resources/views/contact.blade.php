@@ -8,7 +8,7 @@
             <!--========== ISLANDS 1 ==========-->
             <section class="islands swiper-slide">
               <img
-                src="{{ asset('frontend/assets/img/KELAS E.jpg.jpg') }}"
+                src="{{ asset('frontend/assets/img/KELAS E.jpg') }}"
                 alt=""
                 class="islands__bg"
               />
@@ -31,7 +31,7 @@
             <div class="contact__orbe"></div>
 
             <div class="contact__img">
-              <img src="{{ asset('frontend/assets/img/contact E.jpg.jpg') }}" alt="" />
+              <img src="{{ asset('frontend/assets/img/contact E.jpg') }}" alt="" />
             </div>
           </div>
 
