@@ -104,38 +104,6 @@
 </section>
 
 <!--==================== VALUE ====================-->
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accordion Example</title>
-    <style>
-        .value__accordion-content {
-            display: none;
-        }
-        .value__accordion-item.active .value__accordion-content {
-            display: block;
-        }
-    </style>
-</head>
-<body>
-<script>
-        document.querySelectorAll('.value__accordion-header').forEach(header => {
-            header.addEventListener('click', () => {
-                const accordionItem = header.parentElement;
-                const isActive = accordionItem.classList.contains('active');
-                
-                document.querySelectorAll('.value__accordion-item').forEach(item => {
-                    item.classList.remove('active');
-                });
-                
-                if (!isActive) {
-                    accordionItem.classList.add('active');
-                }
-            });
-        });
-    </script>
-</body>
-</html>
 <section class="value section" id="value">
     <div class="value__container container grid">
         <div class="value__images">
