@@ -121,8 +121,8 @@
                     Pengalaman Apa Yang Akan Anda Dapatkan
                 </h2>
                 <p class="value__description">
-                Kami selalu siap melayani Anda dengan memberikan pelayanan terbaik. 
-                Kami menawarkan pilihan perjalanan religi yang sempurna ke berbagai destinasi di seluruh dunia.
+                <b>Kami selalu siap melayani Anda dengan memberikan pelayanan terbaik. 
+                Kami menawarkan pilihan perjalanan religi yang sempurna ke berbagai destinasi di seluruh dunia.</b>
                 </p>
             </div>
 
@@ -141,23 +141,15 @@
                     </header>
                     <div class="value__accordion-content">
     <ul class="value__accordion-info-list">
-        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Makkah">Mekah, Arab Saudi</a</li>
-        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Tanah_Lot">Pura Tanah Lot, Bali</a</li>
-        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Museum_Vatikan">Museum Vatican, Roma</a</li>
-        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Notre-Dame_de_Paris">Gereja Katedral Notre Dame, Paris</a</li>
-        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Maha_Vihara_Mojopahit">Maha Vihara Mojopahit, Mojokerto</a</li>
-        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Masjid_Baiturrahman_Banda_Aceh">Masjid Raya Baiturrahman,Banda aceh</a</li>
-        <!-- Tambahkan tempat-tempat ziarah lainnya sesuai kebutuhan -->
+        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Makkah" target="_blank">Mekah, Arab Saudi</a</li>
+        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Tanah_Lot"target="_blank">Pura Tanah Lot, Bali</a</li>
+        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Museum_Vatikan"target="_blank">Museum Vatican, Roma</a</li>
+        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Notre-Dame_de_Paris"target="_blank">Gereja Katedral Notre Dame, Paris</a</li>
+        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Maha_Vihara_Mojopahit"target="_blank">Maha Vihara Mojopahit, Mojokerto</a</li>
+        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Masjid_Baiturrahman_Banda_Aceh"target="_blank">Masjid Raya Baiturrahman,Banda aceh</a</li>
+        
     </ul>
 </div>
-                        <div class="value__accordion-content">
-                        <p class="value__accordion-description">
-                            We provides the best places around the
-                            world and have a good quality of
-                            service.
-                        </p>
-                    </div>
-                </div>
                 <div class="value__accordion-item">
                     <header class="value__accordion-header">
                         <i
