@@ -42,7 +42,7 @@
               <p class="contact__description">
               " Anda kesulitan menemukan tempat untuk perjalanan Anda berikutnya? 
               Butuh panduan untuk perjalanan pertama Anda atau butuh konsultasi tentang traveling? 
-              Hubungi kami saja "
+              Hubungi kami saja"
               </p>
             </div>
 
