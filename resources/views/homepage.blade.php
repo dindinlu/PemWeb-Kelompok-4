@@ -89,8 +89,7 @@
                                     </div>
                                 </a>
                             </article>
-                            <article class="popular__container swiper">
-                        <div class="swiper-wrapper">
+                            
                             <article class="popular__card swiper-slide">
                                 <a href="#">
                                     <img
@@ -100,12 +99,12 @@
                                     />
                                     <div class="popular__data">
                                         <h2 class="popular__price">
-                                            <span>$</span>500,00
+                                            <span>$</span>35,159
                                         </h2>
                                         <h3 class="popular__title">
-                                           Bali, Indonesia
+                                            Bali, Indonesia
                                         </h3>
-                                        <p class="popular__description">3D4N</p>
+                                        <p class="popular__description">4D5N</p>
                                     </div>
                                 </a>
                             </article>
