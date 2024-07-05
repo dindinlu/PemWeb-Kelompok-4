@@ -110,7 +110,7 @@
                             <article class="popular__card swiper-slide">
                                 <a href="#">
                                     <img
-                                        src="./assets/img/travel-3.jpg"
+                                        src="{{ asset('frontend/assets/img/travel-3.jpg') }}"
                                         alt=""
                                         class="popular__img"
                                     />
@@ -128,7 +128,7 @@
                             <article class="popular__card swiper-slide">
                                 <a href="#">
                                     <img
-                                        src="./assets/img/travel-4.jpg"
+                                        src="{{ asset('frontend/assets/img/travel-4.jpg') }}"
                                         alt=""
                                         class="popular__img"
                                     />
