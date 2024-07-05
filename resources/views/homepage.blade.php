@@ -89,11 +89,11 @@
                                     </div>
                                 </a>
                             </article>
-                            
+
                             <article class="popular__card swiper-slide">
                                 <a href="#">
                                     <img
-                                        src="{{ asset('frontend/assets/img/places-2.jpg') }}"
+                                        src="{{ asset('frontend/assets/img/places-2.jpeg') }}"
                                         alt="Pura Tanah Lot"
                                         class="popular__img"
                                     />
