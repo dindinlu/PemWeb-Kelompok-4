@@ -72,9 +72,9 @@
                     <div class="popular__container swiper">
                         <div class="swiper-wrapper">
                             <article class="popular__card swiper-slide">
-                                <a href="">
+                                <a href="#">
                                     <img
-                                        src="./assets/img/travel-1.jpg"
+                                        src="{{ asset('frontend/assets/img/travel-1.jpg') }}"
                                         alt=""
                                         class="popular__img"
                                     />
