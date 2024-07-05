@@ -74,7 +74,7 @@
                             <article class="popular__card swiper-slide">
                                 <a href="">
                                     <img
-                                        src="./assets/img/travel-1.jpg"
+                                        src=".public/frontend/assets/img/travel-1.jpg"
                                         alt=""
                                         class="popular__img"
                                     />
