@@ -92,7 +92,7 @@
                             <article class="popular__card swiper-slide">
                                 <a href="#">
                                     <img
-                                        src="./assets/img/travel-2.jpg"
+                                        src="{{ asset('frontend/assets/img/travel-2.jpg') }}"
                                         alt=""
                                         class="popular__img"
                                     />
