@@ -68,14 +68,11 @@
     <!--==================== FOOTER ====================-->
     <footer class="footer section">
         <div class="footer__container container grid">
-            <div>
+        <div>
                 <a href="{{ route('homepage') }}" class="footer__logo">
-                    G<i class="bx bxs-map"></i> TRAVEL
+                    <img src="/frontend/assets/img/LOGO.png" alt="Travel Logo" style="height: 200px; width: auto;">
                 </a>
-                <p class="footer__description">
-                    Our vision is to help people find the <br />
-                    best places to travel with high security
-                </p>
+
             </div>
 
             <div class="footer__content">
