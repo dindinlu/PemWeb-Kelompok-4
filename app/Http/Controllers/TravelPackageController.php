@@ -20,4 +20,19 @@ class TravelPackageController extends Controller
 
         return view('travel_packages.show', compact('travel_package', 'travel_packages'));
     }
+
+    public function submitContactForm(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'message' => 'required|string|max:5000',
+        ]);
+
+        // Proses data form kontak
+        // Contohnya, menyimpan ke database atau mengirim email
+        // Contact::create($request->all());
+
+        return redirect()->back()->with('success', 'Pesan Anda telah terkirim!');
+    }
 }

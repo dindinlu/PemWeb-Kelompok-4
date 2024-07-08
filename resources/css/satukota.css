@@ -1,0 +1,15 @@
+/* CSS untuk halaman satukota.blade.php */
+.satukota-header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.satukota-content {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Tambahkan aturan CSS lain sesuai kebutuhan */
