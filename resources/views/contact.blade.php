@@ -55,13 +55,9 @@
                   </div>
                 </div>
 
-                <div class="contact__card-button">
-                   <a href="https://wa.me/62882005992391" target="_blank" class="button">Jirien +62882005992391</a>
-                   </div>
-                  <div class="contact__card-button">
-                  <a href="https://wa.me/6285878371521" target="_blank" class="button">Lukman +6285878371521</a>
-                </div>
-                </div>
+                <p><a href="https://wa.me/62882005992391" target="_blank" class="button contact__card-button">Jirien +62882005992391</a></p>
+                <p><a href="https://wa.me/6285878371521" target="_blank" class="button contact__card-button">Lukman +6285878371521</a></p>
+              </div>
               <div class="contact__card-box">
                 <div class="contact__card-info">
                   <i class="bx bxs-message-rounded-dots"></i>
@@ -70,11 +66,8 @@
                   </div>
                 </div>
 
-                <div class="contact__card-button">
-                  <a href="https://wa.me/6281265580858" target="_blank" class="button">Ratna +6281265580858</a>
-                    </div>
-                 <div class="contact__card-button">
-                 <a href="https://wa.me/6283154680860" target="_blank" class="button">Dinda +6283154680860</a>
+                <p><a href="https://wa.me/6281265580858" target="_blank" class="button contact__card-button">Ratna +6281265580858</a></p>
+                <p><a href="https://wa.me/6283154680860" target="_blank" class="button contact__card-button">Dinda +6283154680860</a></p>
               </div>
             </div>
           </div>
