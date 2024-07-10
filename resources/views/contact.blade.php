@@ -57,7 +57,7 @@
                   </div>
                 </div>
 
-                <a href="https://wa.me/62882005992391" class="button contact__card-button">Call Now</a>
+                <button class="button contact__card-button">Call Now</button>
               </div>
               <div class="contact__card-box">
                 <div class="contact__card-info">
@@ -69,7 +69,7 @@
                   </div>
                 </div>
 
-                <a href="https://wa.me/6281265580858" class="button contact__card-button">Chat Now</a>
+                <button class="button contact__card-button">Chat Now</button>
               </div>
               <div class="contact__card-box">
                 <div class="contact__card-info">
@@ -81,7 +81,9 @@
                   </div>
                 </div>
 
-                <a href="https://wa.me/6283154680860" class="button contact__card-button">Video Call Now</a>
+                <button class="button contact__card-button">
+                  Video Call Now
+                </button>
               </div>
               <div class="contact__card-box">
                 <div class="contact__card-info">
@@ -93,7 +95,7 @@
                   </div>
                 </div>
 
-                <a href="https://wa.me/625878371521" class="button contact__card-button">Message Now</a>
+                <button class="button contact__card-button">Message Now</button>
               </div>
             </div>
           </div>
