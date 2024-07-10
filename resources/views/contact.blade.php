@@ -56,8 +56,6 @@
                     <p class="contact__card-description">+62882005992391</p>
                   </div>
                 </div>
-                <a href="tel:+62882005992391" class="button contact__card-button" target="_blank">Call Now</a>
-            </div>
 
                 <button class="button contact__card-button">Call Now</button>
               </div>
@@ -69,8 +67,6 @@
                     <p class="contact__name-description">Ratna</p>
                     <p class="contact__card-description">+6281265580858</p>
                   </div>
-                </div>
-                <a href="https://wa.me/6281265580858" class="button contact__card-button" target="_blank">Chat Now</a>
                 </div>
 
                 <button class="button contact__card-button">Chat Now</button>
@@ -84,8 +80,6 @@
                     <p class="contact__card-description">+6283154680860</p>
                   </div>
                 </div>
-                <a href="https://wa.me/6283154680860" class="button contact__card-button" target="_blank">Video Call Now</a>
-            </div>
 
                 <button class="button contact__card-button">
                   Video Call Now
@@ -100,9 +94,6 @@
                     <p class="contact__card-description">+625878371521</p>
                   </div>
                 </div>
-                <a href="sms:+625878371521" class="button contact__card-button" target="_blank">Message Now</a>
-             </div>
-            </div>
 
                 <button class="button contact__card-button">Message Now</button>
               </div>
