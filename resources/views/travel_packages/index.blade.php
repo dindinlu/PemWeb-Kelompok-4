@@ -42,28 +42,6 @@
             </article>
             @endforeach
 
-            <!-- Added Hover Boxes -->
-            <div class="popular__card hover-box" style="background-image: url('{{ asset('frontend/assets/img/masjid.jpg') }}');" >
-                <a href="{{route('satukota')}}" class="box1-link">
-                    <div class="content">
-                        <h2>Package Wisata 1 Kota</h2>
-                        <p>Perjalanan intens di satu kota pilihan.</p>
-                    </div>
-                </a>
-            </div>                        
-
-            <div class="popular__card hover-box" style="background-image: url('{{ asset('frontend/assets/img/masjid.jpg') }}');">
-               <a href="{{route('lebihkota')}}" class="box2-link">
-                <div class="content">
-                    <h2>Package Wisata Lebih dari 1 Kota</h2>
-                    <p>
-                        Kunjungi beberapa kota sekaligus dalam waktu singkat!
-                    </p>
-                </div>
-               </a>
-            </div>
-            <!-- End of Added Hover Boxes -->
-
         </div>
     </div>
 </section>
