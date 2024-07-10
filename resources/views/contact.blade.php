@@ -98,8 +98,5 @@
                 <a href="sms:+625878371521" class="button contact__card-button" target="_blank">Message Now</a>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
       </section>
 @endsection
