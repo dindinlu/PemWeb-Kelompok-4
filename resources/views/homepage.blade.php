@@ -235,7 +235,6 @@
     <div class="value__container container grid">
         <div class="value__images">
             <div class="value__orbe"></div>
-
             <div class="value__img">
                 <img src="{{ asset('frontend/assets/img/team.jpg') }}" alt="" />
             </div>
@@ -248,40 +247,37 @@
                     Pengalaman Apa Yang Akan Anda Dapatkan
                 </h2>
                 <p class="value__description">
-                <b>Kami selalu siap melayani Anda dengan memberikan pelayanan terbaik. 
-                Kami menawarkan pilihan perjalanan religi yang sempurna ke berbagai destinasi di seluruh dunia.</b>
+                    <b>Kami selalu siap melayani Anda dengan memberikan pelayanan terbaik. 
+                    Kami menawarkan pilihan perjalanan religi yang sempurna ke berbagai destinasi di seluruh dunia.</b>
                 </p>
             </div>
 
             <div class="value__accordion">
                 <div class="value__accordion-item">
                     <header class="value__accordion-header">
-                        <i
-                            class="bx bxs-shield-x value-accordion-icon"
-                        ></i>
+                        <i class="bx bxs-shield-x value-accordion-icon"></i>
                         <h3 class="value__accordion-title">
-                            Lokasi ziarah terbaikdiberbagai dunia 
+                            Lokasi ziarah terbaik di berbagai dunia
                         </h3>
                         <div class="value__accordion-arrow">
                             <i class="bx bxs-down-arrow"></i>
                         </div>
                     </header>
                     <div class="value__accordion-content">
-    <ul class="value__accordion-info-list">
-        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Makkah" target="_blank">Mekah, Arab Saudi</a</li>
-        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Tanah_Lot"target="_blank">Pura Tanah Lot, Bali</a</li>
-        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Museum_Vatikan"target="_blank">Museum Vatican, Roma</a</li>
-        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Notre-Dame_de_Paris"target="_blank">Gereja Katedral Notre Dame, Paris</a</li>
-        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Maha_Vihara_Mojopahit"target="_blank">Maha Vihara Mojopahit, Mojokerto</a</li>
-        <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Masjid_Baiturrahman_Banda_Aceh"target="_blank">Masjid Raya Baiturrahman,Banda aceh</a</li>
-        
-    </ul>
-</div>
+                        <ul class="value__accordion-info-list">
+                            <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Makkah" target="_blank">Mekah, Arab Saudi</a></li>
+                            <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Tanah_Lot" target="_blank">Pura Tanah Lot, Bali</a></li>
+                            <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Museum_Vatikan" target="_blank">Museum Vatican, Roma</a></li>
+                            <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Notre-Dame_de_Paris" target="_blank">Gereja Katedral Notre Dame, Paris</a></li>
+                            <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Maha_Vihara_Mojopahit" target="_blank">Maha Vihara Mojopahit, Mojokerto</a></li>
+                            <li class="value__accordion-info-item"><a href="https://id.wikipedia.org/wiki/Masjid_Baiturrahman_Banda_Aceh" target="_blank">Masjid Raya Baiturrahman, Banda Aceh</a></li>
+                        </ul>
+                    </div>
+                </div>
+
                 <div class="value__accordion-item">
                     <header class="value__accordion-header">
-                        <i
-                            class="bx bxs-x-square value-accordion-icon"
-                        ></i>
+                        <i class="bx bxs-x-square value-accordion-icon"></i>
                         <h3 class="value__accordion-title">
                             Harga terbaik untuk anda
                         </h3>
@@ -289,19 +285,16 @@
                             <i class="bx bxs-down-arrow"></i>
                         </div>
                     </header>
-
                     <div class="value__accordion-content">
                         <p class="value__accordion-description">
-                            We try to make your budget fit with the
-                            destination that you want to go.
+                            We try to make your budget fit with the destination that you want to go.
                         </p>
                     </div>
                 </div>
+
                 <div class="value__accordion-item">
                     <header class="value__accordion-header">
-                        <i
-                            class="bx bxs-bar-chart-square value-accordion-icon"
-                        ></i>
+                        <i class="bx bxs-bar-chart-square value-accordion-icon"></i>
                         <h3 class="value__accordion-title">
                             Rencanakan liburan anda
                         </h3>
@@ -309,18 +302,16 @@
                             <i class="bx bxs-down-arrow"></i>
                         </div>
                     </header>
-
                     <div class="value__accordion-content">
                         <p class="value__accordion-description">
                             Provides you with time properly.
                         </p>
                     </div>
                 </div>
+
                 <div class="value__accordion-item">
                     <header class="value__accordion-header">
-                        <i
-                            class="bx bxs-check-square value-accordion-icon"
-                        ></i>
+                        <i class="bx bxs-check-square value-accordion-icon"></i>
                         <h3 class="value__accordion-title">
                             Jaminan keamanan
                         </h3>
@@ -328,11 +319,9 @@
                             <i class="bx bxs-down-arrow"></i>
                         </div>
                     </header>
-
                     <div class="value__accordion-content">
                         <p class="value__accordion-description">
-                            We make sure that our services have a
-                            good of security
+                            We make sure that our services have a good level of security.
                         </p>
                     </div>
                 </div>
@@ -340,6 +329,7 @@
         </div>
     </div>
 </section>
+
 
 <!-- blog -->
 <section class="blog section" id="blog">

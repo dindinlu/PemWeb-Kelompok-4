@@ -37,6 +37,7 @@ Route::get('/', [\App\Http\Controllers\HomeController::class, 'index'])->name('h
 // travel packages
 Route::get('travel-packages',[\App\Http\Controllers\TravelPackageController::class, 'index'])->name('travel_package.index');
 Route::get('travel-packages/{travel_package:slug}',[\App\Http\Controllers\TravelPackageController::class, 'show'])->name('travel_package.show');
+Route::post('/contact/submit', [TravelPackageController::class, 'submitContactForm'])->name('contact.submit');
 // blogs
 Route::get('blogs', [\App\Http\Controllers\BlogController::class, 'index'])->name('blog.index');
 Route::get('blogs/{blog:slug}', [\App\Http\Controllers\BlogController::class, 'show'])->name('blog.show');
@@ -47,3 +48,13 @@ Route::get('contact', function() {
 })->name('contact');
 // booking
 Route::post('booking', [App\Http\Controllers\BookingController::class, 'store'])->name('booking.store');
+
+Route::get('/satukota', function () {
+    return view('travel_packages.satukota');
+})->name('satukota');
+
+Route::get('/lebihkota', function () {
+    return view('travel_packages.lebihkota');
+})->name('lebihkota');
+
+

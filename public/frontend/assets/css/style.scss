@@ -416,7 +416,11 @@ body.dark-theme {
 
 .popular__card:hover {
     box-shadow: 0 12px 16px hsla(228, 66%, 45%, 0.1);
+    background-image: url('img/masjid.jpg'); 
+    background-size: cover; 
+    background-position: center; 
 }
+
 
 /* Swiper class */
 .swiper-button-prev::after,
