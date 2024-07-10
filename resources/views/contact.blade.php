@@ -1,6 +1,23 @@
 @extends('layouts.frontend')
 
 @section('content')
+
+<style>
+  .button {
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+  }
+
+  .contact__card-box {
+    width: 100%; /* Mengatur lebar box agar lebih lebar */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan sedikit bayangan */
+    margin-bottom: 20px; /* Memberikan jarak bawah antara box */
+  }
+</style>
+
 <!--==================== HOME ====================-->
 <section>
         <div class="swiper-container gallery-top">
@@ -50,52 +67,16 @@
               <div class="contact__card-box">
                 <div class="contact__card-info">
                   <i class="bx bxs-phone-call"></i>
-                  <div>
-                    <h3 class="contact__card-title">Call</h3>
-                    <p class="contact__name-description">Jirien</p>
-                    <p class="contact__card-description">+62882005992391</p>
-                  </div>
-                </div>
-
-                <button class="button contact__card-button">Call Now</button>
-              </div>
-              <div class="contact__card-box">
-                <div class="contact__card-info">
                   <i class="bx bxs-message-rounded-dots"></i>
                   <div>
-                    <h3 class="contact__card-title">Whatsapp</h3>
-                    <p class="contact__name-description">Ratna</p>
-                    <p class="contact__card-description">+6281265580858</p>
+                    <h3 class="contact__card-title">Kontak Developer</h3>
                   </div>
                 </div>
 
-                <button class="button contact__card-button">Chat Now</button>
-              </div>
-              <div class="contact__card-box">
-                <div class="contact__card-info">
-                  <i class="bx bxs-video"></i>
-                  <div>
-                    <h3 class="contact__card-title">Video Call</h3>
-                    <p class="contact__name-description">Dinda</p>
-                    <p class="contact__card-description">+6283154680860</p>
-                  </div>
-                </div>
-
-                <button class="button contact__card-button">
-                  Video Call Now
-                </button>
-              </div>
-              <div class="contact__card-box">
-                <div class="contact__card-info">
-                  <i class="bx bxs-phone-call"></i>
-                  <div>
-                    <h3 class="contact__card-title">Message</h3>
-                    <p class="contact__name-description">Lukman</p>
-                    <p class="contact__card-description">+625878371521</p>
-                  </div>
-                </div>
-
-                <button class="button contact__card-button">Message Now</button>
+                <p><a href="https://wa.me/62882005992391" target="_blank" class="button contact__card-button">Jirien +62882005992391</a></p>
+                <p><a href="https://wa.me/6285878371521" target="_blank" class="button contact__card-button">Lukman +6285878371521</a></p>
+                <p><a href="https://wa.me/6281265580858" target="_blank" class="button contact__card-button">Ratna +6281265580858</a></p>
+                <p><a href="https://wa.me/6283154680860" target="_blank" class="button contact__card-button">Dinda +6283154680860</a></p>
               </div>
             </div>
           </div>
