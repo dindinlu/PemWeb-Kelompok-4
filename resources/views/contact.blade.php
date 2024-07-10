@@ -1,6 +1,16 @@
 @extends('layouts.frontend')
 
 @section('content')
+
+@section('content')
+<style>
+  .button {
+    display: block;
+    text-align: center; /* Memastikan teks berada di tengah */
+    padding: 10px 15px; /* Sesuaikan dengan kebutuhan Anda */
+    margin-bottom: 10px; /* Memberikan sedikit jarak di antara tombol */
+  }
+</style>
 <!--==================== HOME ====================-->
 <section>
         <div class="swiper-container gallery-top">
