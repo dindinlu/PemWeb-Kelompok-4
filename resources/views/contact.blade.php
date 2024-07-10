@@ -47,35 +47,27 @@
             </div>
 
             <div class="contact__card">
-              <div class="contact__card-box">
-                <div class="contact__card-info">
-                  <i class="bx bxs-phone-call"></i>
-                  <div>
-                    <h3 class="contact__card-title">Whatsapp Call</h3>
-                    <p class="contact__name-description">Jirien</p>
-                    <p class="contact__name-description">Lukman</p>
-                    <p class="contact__card-description">+62882005992391</p>
-                    <p class="contact__card-description">+625878371521</p>
-                  </div>
-                </div>
-                <button class="button contact__card-button">Call Now</button>
-              </div>
+  <div class="contact__card-box">
+    <div class="contact__card-info">
+      <i class="bx bxs-phone-call"></i>
+      <div>
+        <h3 class="contact__card-title">Whatsapp Call</h3>
+        <p class="contact__card-description">Jirien +62882005992391</p>
+        <p class="contact__card-description">Lukman +625878371521</p>
+      </div>
+    </div>
+    <button class="button contact__card-button">Call Now</button>
+  </div>
 
-              <div class="contact__card-box">
-                <div class="contact__card-info">
-                  <i class="bx bxs-message-rounded-dots"></i>
-                  <div>
-                    <h3 class="contact__card-title">Whatsapp</h3>
-                    <p class="contact__name-description">Ratna</p>
-                    <p class="contact__name-description">Dinda</p>
-                    <p class="contact__card-description">+6281265580858</p>
-                    <p class="contact__card-description">+6283154680860</p>
-                  </div>
-                </div>
-                <button class="button contact__card-button">Chat Now</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-@endsection
+  <div class="contact__card-box">
+    <div class="contact__card-info">
+      <i class="bx bxs-message-rounded-dots"></i>
+      <div>
+        <h3 class="contact__card-title">Whatsapp</h3>
+        <p class="contact__card-description">Ratna +6281265580858</p>
+        <p class="contact__card-description">Dinda +6283154680860</p>
+      </div>
+    </div>
+    <button class="button contact__card-button">Chat Now</button>
+  </div>
+</div>
