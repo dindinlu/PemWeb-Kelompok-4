@@ -55,8 +55,8 @@
                   </div>
                 </div>
 
-                <p><a href="https://wa.me/62882005992391" class="button contact__card-button">Jirien +62882005992391</a></p>
-                <p><a href="https://wa.me/6285878371521" class="button contact__card-button">Lukman +6285878371521</a></p>
+                <p><a href="https://wa.me/62882005992391" target="_blank" class="button contact__card-button">Jirien +62882005992391</a></p>
+                <p><a href="https://wa.me/6285878371521" target="_blank" class="button contact__card-button">Lukman +6285878371521</a></p>
               </div>
               <div class="contact__card-box">
                 <div class="contact__card-info">
@@ -66,9 +66,8 @@
                   </div>
                 </div>
 
-                <p><a href="https://wa.me/6281265580858" class="button contact__card-button">Ratna +6281265580858</a></p>
-                <p><a href="https://wa.me/6283154680860" class="button contact__card-button">Dinda +6283154680860</a></p>
-              </div>
+                <p><a href="https://wa.me/6281265580858" target="_blank" class="button contact__card-button">Ratna +6281265580858</a></p>
+                <p><a href="https://wa.me/6283154680860" target="_blank" class="button contact__card-button">Dinda +6283154680860</a></p>
               </div>
             </div>
           </div>
