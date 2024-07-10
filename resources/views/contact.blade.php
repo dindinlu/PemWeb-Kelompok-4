@@ -57,7 +57,8 @@
                   </div>
                 </div>
 
-                <button class="button contact__card-button">Call Now</button>
+                <button class="button contact__card-button">Jirien +62882005992391</button>
+                <button class="button contact__card-button">Jirien +62882005992391</button>
               </div>
               <div class="contact__card-box">
                 <div class="contact__card-info">
