@@ -57,8 +57,8 @@
                   </div>
                 </div>
 
-                <a href="tel:+62882005992391" class="button contact__card-button" target="_blank">Call Now</a>
-            </div>
+                <button class="button contact__card-button">Call Now</button>
+              </div>
               <div class="contact__card-box">
                 <div class="contact__card-info">
                   <i class="bx bxs-message-rounded-dots"></i>
@@ -69,8 +69,8 @@
                   </div>
                 </div>
 
-                <a href="https://wa.me/6281265580858" class="button contact__card-button" target="_blank">Chat Now</a>
-                </div>
+                <button class="button contact__card-button">Chat Now</button>
+              </div>
               <div class="contact__card-box">
                 <div class="contact__card-info">
                   <i class="bx bxs-video"></i>
@@ -81,8 +81,8 @@
                   </div>
                 </div>
 
-                <a href="https://wa.me/6283154680860" class="button contact__card-button" target="_blank">Video Call Now</a>
-              </div>
+                <button class="button contact__card-button">
+                  Video Call Now
                 </button>
               </div>
               <div class="contact__card-box">
@@ -95,8 +95,10 @@
                   </div>
                 </div>
 
-                <a href="sms:+625878371521" class="button contact__card-button" target="_blank">Message Now</a>
-                </div>
+                <button class="button contact__card-button">Message Now</button>
               </div>
+            </div>
+          </div>
+        </div>
       </section>
 @endsection
