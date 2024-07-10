@@ -52,13 +52,11 @@
                   <i class="bx bxs-phone-call"></i>
                   <div>
                     <h3 class="contact__card-title">Call</h3>
-                    <p class="contact__name-description">Jirien</p>
-                    <p class="contact__card-description">+62882005992391</p>
                   </div>
                 </div>
 
-                <button class="button contact__card-button">Jirien +62882005992391</button>
-                <button class="button contact__card-button">Jirien +62882005992391</button>
+                <p><button class="button contact__card-button">Jirien +62882005992391</button></p>
+                <p><button class="button contact__card-button">Lukman +6285878371521</button></p>
               </div>
               <div class="contact__card-box">
                 <div class="contact__card-info">
