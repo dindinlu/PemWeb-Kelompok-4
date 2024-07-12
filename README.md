@@ -45,12 +45,6 @@ php artisan key:generate
 php artisan migrate
 ```
 
-- Untuk memulai web dengan database baru
-
-```bash
-php artisan migrate:fresh --seed
-```
-
 ```bash
 php artisan storage:link
 ```
@@ -75,6 +69,15 @@ http://127.0.0.1:8000/login
 
 - Email: admin@admin.com
 - Password: 123
+
+- Untuk memulai web dengan database baru ganti perintah
+```bash
+php artisan migrate
+```
+  dengan
+```bash
+php artisan migrate:fresh --seed
+```
 
 ### Deskripsi Web
 
