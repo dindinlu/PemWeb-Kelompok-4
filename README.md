@@ -16,13 +16,19 @@ Repository GitHub: [Travelscapes](https://github.com/AtharvaKulkarniIT/Travelsca
 git clone https://github.com/dindinlu/PemWeb-Kelompok-4.git nama-proyek
 ```
 
+### Cara Setup Database
+- Letakkan folder "holy@002dcrossroads" ke direktori mysql XAMPP yang biasanya berada pada
+```bash
+C:\xampp\mysql\data
+```
+
 Masuk ke direktori proyek
 
 ```bash
 cd nama-proyek
 ```
 
-- Salin file .env.example menjadi .env dan edit kredensial database di dalamnya
+- Salin file .env.example menjadi .env dan edit kredensial database di dalamnya yang sebelumnya bernama "Laravel" menjadi "holy-crossroads"
 
 ```bash
 composer install
@@ -32,6 +38,14 @@ composer install
 php artisan key:generate
 ```
 
+- Untuk memulai web dengan database yang sudah ada
+
+```bash
+php artisan migrate
+```
+
+- Untuk memulai web dengan database baru
+
 ```bash
 php artisan migrate:fresh --seed
 ```
@@ -40,7 +54,23 @@ php artisan migrate:fresh --seed
 php artisan storage:link
 ```
 
+```bash
+php artisan serve
+```
+
+- Untuk menggunakan fitur admin
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
+
 #### Login
+
+http://127.0.0.1:8000/login
 
 - Email: admin@admin.com
 - Password: 123
