@@ -17,10 +17,11 @@ git clone https://github.com/dindinlu/PemWeb-Kelompok-4.git nama-proyek
 ```
 
 ### Cara Setup Database
-- Letakkan folder "holy@002dcrossroads" ke direktori mysql XAMPP yang biasanya berada pada
-```bash
-C:\xampp\mysql\data
-```
+1. Siapkan XAMPP
+2. Start module Apache dan MySql
+3. Buka halaman admin MySql "http://localhost/phpmyadmin/index.php"
+4. Buat database baru bernama "holy-crossroads"
+5. Klik Import dan pilih file "holy-crossroads.sql" dari repositori
 
 Masuk ke direktori proyek
 
