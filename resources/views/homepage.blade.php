@@ -61,174 +61,47 @@
 
  <!--==================== POPULAR ====================-->
  <section class="section" id="popular">
-                <div class="container">
-                    <span class="section__subtitle" style="text-align: center"
-                        >Best Choice</span
-                    >
-                    <h2 class="section__title" style="text-align: center">
-                        Popular Places
-                    </h2>
+    <div class="container">
+        <span class="section__subtitle" style="text-align: center"
+            >Best Choice</span
+        >
+        <h2 class="section__title" style="text-align: center">
+            Popular Places
+        </h2>
 
-                    <div class="popular__container swiper">
-                        <div class="swiper-wrapper">
-                            <article class="popular__card swiper-slide">
-                                <a href="#">
-                                    <img
-                                        src="{{ asset('frontend/assets/img/places-1.jpg') }}"
-                                        alt="Masjid raya balturrahman"
-                                        class="popular__img"
-                                    />
-                                    <div class="popular__data">
-                                        <h2 class="popular__price">
-                                            <span>$</span>500,00
-                                        </h2>
-                                        <h3 class="popular__title">
-                                            Banda aceh, Indonesia
-                                        </h3>
-                                        <p class="popular__description">3D4N</p>
-                                    </div>
-                                </a>
-                            </article>
+        <div class="popular__container swiper">
+            <div class="swiper-wrapper">
+                @foreach($travel_packages as $travel_package)
+                    <article class="popular__card swiper-slide">
+                        <a href="{{ route('travel_package.show', $travel_package->slug) }}">
+                            <img
+                                src="{{ Storage::url($travel_package->galleries->first()->images) }}"
+                                alt=""
+                                class="popular__img"
+                            />
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>$</span>{{ number_format($travel_package->price,2) }}
+                                </h2>
+                                <h3 class="popular__title">
+                                    {{ $travel_package->location}}
+                                </h3>
+                                <p class="popular__description">{{ $travel_package->type }}</p>
+                            </div>
+                        </a>
+                    </article>
+                @endforeach
+            </div>
 
-                            <article class="popular__card swiper-slide">
-                                <a href="#">
-                                    <img
-                                        src="{{ asset('frontend/assets/img/places-2.jpeg') }}"
-                                        alt="Pura Tanah Lot"
-                                        class="popular__img"
-                                    />
-                                    <div class="popular__data">
-                                        <h2 class="popular__price">
-                                            <span>$</span>35,159
-                                        </h2>
-                                        <h3 class="popular__title">
-                                            Bali, Indonesia
-                                        </h3>
-                                        <p class="popular__description">4D5N</p>
-                                    </div>
-                                </a>
-                            </article>
-                            <article class="popular__card swiper-slide">
-                                <a href="#">
-                                    <img
-                                        src="{{ asset('frontend/assets/img/places-3.jpg') }}"
-                                        alt="Gua Maria Lourdes Puhsarang"
-                                        class="popular__img"
-                                    />
-                                    <div class="popular__data">
-                                        <h2 class="popular__price">
-                                            <span>$</span>75,043
-                                        </h2>
-                                        <h3 class="popular__title">
-                                            Kediri, Indonesia
-                                        </h3>
-                                        <p class="popular__description">5D6N</p>
-                                    </div>
-                                </a>
-                            </article>
-                            <article class="popular__card swiper-slide">
-                                <a href="#">
-                                    <img
-                                        src="{{ asset('frontend/assets/img/places-4.jpg') }}"
-                                        alt="Masjid Cheng Ho"
-                                        class="popular__img"
-                                    />
-                                    <div class="popular__data">
-                                        <h2 class="popular__price">
-                                            <span>$</span>62,024
-                                        </h2>
-                                        <h3 class="popular__title">
-                                            Surabaya, Indonesia
-                                        </h3>
-                                        <p class="popular__description">2D3N</p>
-                                    </div>
-                                </a>
-                            </article>
-                            <article class="popular__card swiper-slide">
-                                <a href="#">
-                                    <img
-                                        src="{{ asset('frontend/assets/img/places-5.jpg') }}"
-                                        alt="Maha Vihara Mojopahit"
-                                        class="popular__img"
-                                    />
-                                    <div class="popular__data">
-                                        <h2 class="popular__price">
-                                            <span>$</span>75,043
-                                        </h2>
-                                        <h3 class="popular__title">
-                                            Mojkerto, Indonesia
-                                        </h3>
-                                        <p class="popular__description">5D6N</p>
-                                    </div>
-                                </a>
-                            </article>
-                            <article class="popular__card swiper-slide">
-                                <a href="#">
-                                    <img
-                                        src="{{ asset('frontend/assets/img/places-6.jpg') }}"
-                                        alt="Patung Yeus Toraja"
-                                        class="popular__img"
-                                    />
-                                    <div class="popular__data">
-                                        <h2 class="popular__price">
-                                            <span>$</span>75,043
-                                        </h2>
-                                        <h3 class="popular__title">
-                                            Toraja, Indonesia
-                                        </h3>
-                                        <p class="popular__description">5D6N</p>
-                                    </div>
-                                </a>
-                            </article>
-                            <article class="popular__card swiper-slide">
-                                <a href="#">
-                                    <img
-                                        src="{{ asset('frontend/assets/img/places-7.jpg') }}"
-                                        alt="Masjid Agung Jawa Tengah"
-                                        class="popular__img"
-                                    />
-                                    <div class="popular__data">
-                                        <h2 class="popular__price">
-                                            <span>$</span>75,043
-                                        </h2>
-                                        <h3 class="popular__title">
-                                           Semarang, Indonesia
-                                        </h3>
-                                        <p class="popular__description">5D6N</p>
-                                    </div>
-                                </a>
-                            </article>
-                            <article class="popular__card swiper-slide">
-                                <a href="#">
-                                    <img
-                                        src="{{ asset('frontend/assets/img/places-8.jpg') }}"
-                                        alt=" Wihara Dung Dewa Siantan"
-                                        class="popular__img"
-                                    />
-                                    <div class="popular__data">
-                                        <h2 class="popular__price">
-                                            <span>$</span>75,043
-                                        </h2>
-                                        <h3 class="popular__title">
-                                           Kep Riau, Indonesia
-                                        </h3>
-                                        <p class="popular__description">5D6N</p>
-                                    </div>
-                                </a>
-                            </article>
-
-                        </div>
-
-                        <div class="swiper-button-next">
-                            <i class="bx bx-chevron-right"></i>
-                        </div>
-                        <div class="swiper-button-prev">
-                            <i class="bx bx-chevron-left"></i>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
+            <div class="swiper-button-next">
+                <i class="bx bx-chevron-right"></i>
+            </div>
+            <div class="swiper-button-prev">
+                <i class="bx bx-chevron-left"></i>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!--==================== VALUE ====================-->
 <section class="value section" id="value">
